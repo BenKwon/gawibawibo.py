@@ -23,7 +23,7 @@ def determine_winner(a,b):
 		return 2
 	elif(b==a):
 		print("비겼습니다")
-		return 1
+		return -1
 	else:
 		print("당신이 패배 하였습니다")
 		return -2
