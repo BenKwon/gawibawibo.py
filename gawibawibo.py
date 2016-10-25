@@ -29,8 +29,9 @@ def determine_winner(a,b):
 		
 	"""gawi : 1 bawi: 2 bo: 3"""
 
-cpu_output_index =[1,2,3]
-cpu_output =["가위","바위","보"]	b = random.randint(1,3)
-x = input("가위:1,바위:2,보:3 중에 하나를 골라주세요 :")
-a = int(x)
-print("컴퓨터가 "+cpu_output[b-1]+"를 냈습니다")
+while(True):
+	cpu_output_index =[1,2,3]
+	cpu_output =["가위","바위","보"]	b = random.randint(1,3)
+	x = input("가위:1,바위:2,보:3 중에 하나를 골라주세요 :")
+	a = int(x)
+	print("컴퓨터가 "+cpu_output[b-1]+"를 냈습니다")
