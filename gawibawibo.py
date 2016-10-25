@@ -35,3 +35,9 @@ while(True):
 	x = input("가위:1,바위:2,보:3 중에 하나를 골라주세요 :")
 	a = int(x)
 	print("컴퓨터가 "+cpu_output[b-1]+"를 냈습니다")
+	c = input("다시 플레이 하시겠습니까?[y,n]")
+	c = str(c)
+	if(c=='y'):
+		continue
+	else:
+		break
